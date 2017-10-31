@@ -17,6 +17,10 @@ El código fuente del test se encuentra en
 El código fuente del test se encuentra en
 ./espresso_4_5/Silectric-master/app/src/androidTest/java/net/alaindonesia/silectric/AgregarCargoTest.java
 
+
 El siguiente [video](https://www.youtube.com/watch?v=SY9701gmBFg) muestra todo el proceso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SY9701gmBFg" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SY9701gmBFg
+" target="_blank"><img src="http://img.youtube.com/vi/SY9701gmBFg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" /></a>
+
 

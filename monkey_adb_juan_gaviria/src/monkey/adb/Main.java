@@ -62,7 +62,7 @@ public class Main {
 
     public static boolean getPermisoEjecutar(String probabilidad) {
         Random random = new Random();
-        return probabilidad != null && random.nextInt(101) <= (Double.valueOf(probabilidad) * 100);
+        return probabilidad != null && random.nextInt(101) < (Double.valueOf(probabilidad) * 100);
     }
 
     public static void main(String[] args) {

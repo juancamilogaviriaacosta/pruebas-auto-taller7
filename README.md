@@ -2,7 +2,7 @@
 
 ### 1. Ejecutar monkey java
 
-Ejecutar el jar con la siguiente linea de comando, reemplazando los parametros por los que correspondan de acuerdo al ambiente donde se ejecute de la siguiente manra
+Ejecutar el jar reemplazando los parametros por los que correspondan de acuerdo al ambiente donde se ejecute de la siguiente manera
 
 * adb_root=/home/juan/Android/Sdk/platform-tools/ (ubicacion del adb)
 * telnet_token=ZhOfLHqRnR2sPche (token telnet)
@@ -18,7 +18,8 @@ Ejecutar el jar con la siguiente linea de comando, reemplazando los parametros p
 * apk=/home/juan/Escritorio/silectric.apk (ubicación del APK)
 * paquete=net.alaindonesia.silectric (nombre del paquete)
 
-Nota1: para al parametro adb_root se debe incluir el utlimo slash (/) como aparece en el ejemplo, nota2: puede descargar el ejecutable en la sección de release [monkey_adb_juan_gaviria.jar](https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/archive/monkey_adb_juan_gaviria.jar)
+Nota1: para al parametro adb_root se debe incluir el utlimo slash (/) como aparece en el ejemplo
+Nota2: puede descargar el ejecutable en la sección de release [monkey_adb_juan_gaviria.jar](https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/archive/monkey_adb_juan_gaviria.jar)
 
 Ejemplo
 

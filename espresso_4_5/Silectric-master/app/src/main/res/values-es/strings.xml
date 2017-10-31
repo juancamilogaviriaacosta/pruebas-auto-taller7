@@ -5,7 +5,6 @@
     <string name="activity_per_day">Actividad por día</string>
     <string name="add_activity" >Agregar actividad</string>
     <string name="electronic">Electrónico</string>
-    <string name="number">Número</string>
     <string name="usage_day">Uso / día</string>
     <string name="electronic_name">Nombre del Electrónico</string>
     <string name="template_daily_usage">Plantilla uso/día</string>

@@ -7,7 +7,6 @@
     <string name="activity_per_day">日あたりの活動</string>
     <string name="add_activity" >活動を追加</string>
     <string name="electronic">電気</string>
-    <string name="number">数</string>
     <string name="usage_day">使用状況 / 日</string>
     <string name="electronic_name">電気名</string>
     <string name="template_daily_usage">テンプレート 使用状況/日</string>

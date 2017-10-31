@@ -19,7 +19,7 @@ Ejecutar el jar reemplazando los parametros por los que correspondan de acuerdo 
 * paquete=net.alaindonesia.silectric (nombre del paquete)
 
 Nota1: para al parametro adb_root se debe incluir el utlimo slash (/) como aparece en el ejemplo
-Nota2: puede descargar el ejecutable en la sección de release [monkey_adb_juan_gaviria.jar](https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/archive/monkey_adb_juan_gaviria.jar)
+Nota2: puede descargar el ejecutable en la sección de release [monkey_adb_juan_gaviria.jar](https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/releases/download/1/monkey_adb_juan_gaviria.jar)
 
 Ejemplo
 

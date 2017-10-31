@@ -26,6 +26,7 @@ import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.core.StringContains.containsString;
 import static org.hamcrest.Matchers.allOf;
 
 @LargeTest
@@ -37,7 +38,7 @@ public class AgregarCargoTest {
 
     @Test
     public void agregarCargoTest() {
-        //pressBack();
+        //pressBack();  //hay que presionar atrás cuando la aplicacion corre por primera vez en el dispositivo
 
         openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
 
@@ -55,8 +56,7 @@ public class AgregarCargoTest {
 
         ViewInteraction textView = onView(
                 allOf(withId(R.id.totalElectricFeeTextView)));
-        textView.check(matches(withText("$0.03")));
-
+        textView.check(matches(withText(containsString("$"))));
     }
 
     private static Matcher<View> childAtPosition(

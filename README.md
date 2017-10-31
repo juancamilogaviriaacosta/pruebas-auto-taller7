@@ -3,7 +3,7 @@
 ### 1. Ejecutar monkey java
 
 Ejecutar el jar con la siguiente linea de comando, reemplazando los parametros por los que correspondan de acuerdo al ambiente donde se ejecute
-Nota1: para al parametro adb_root se debe incluir el utlimo slash (/) como aparece en el ejemplo, nota2: puede descargar el ejecutable en la sección de release monkey_adb_juan_gaviria.jar https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/archive/monkey_adb_juan_gaviria.jar
+Nota1: para al parametro adb_root se debe incluir el utlimo slash (/) como aparece en el ejemplo, nota2: puede descargar el ejecutable en la sección de release [monkey_adb_juan_gaviria.jar](https://github.com/juancamilogaviriaacosta/pruebas-auto-taller7/archive/monkey_adb_juan_gaviria.jar)
 
 java -jar monkey_adb_juan_gaviria.jar adb_root=/home/juan/Android/Sdk/platform-tools/ telnet_token=ZhOfLHqRnR2sPche emulator_port=5554 n=10 tap=0.96 text=0.8 swipe=0.92 keyevent=0.1 rotate=0.3 network_speed=0.2 accelerometer=0.1 apk=/home/juan/Escritorio/silectric.apk paquete=net.alaindonesia.silectric
 
@@ -17,5 +17,6 @@ El código fuente del test se encuentra en
 El código fuente del test se encuentra en
 ./espresso_4_5/Silectric-master/app/src/androidTest/java/net/alaindonesia/silectric/AgregarCargoTest.java
 
-El siguiente video muestra todo el proceso
-[linkname](https://www.youtube.com/watch?v=SY9701gmBFg)
+El siguiente [video](https://www.youtube.com/watch?v=SY9701gmBFg) muestra todo el proceso
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SY9701gmBFg" frameborder="0" allowfullscreen></iframe>
+
